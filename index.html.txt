@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vandaads Keyboards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Vandaads Keyboards</h1>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#listings">Listings</a>
+            <a href="#contact">Contact Information</a>
+            <a href="#login">Login</a>
+        </nav>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Vandaads Keyboards! We specialize in unique and stylish keyboards for all types of users. Whether you're a gamer, a programmer, or just need a reliable keyboard, we've got you covered.</p>
+    </section>
+
+    <!-- Product Listings Section -->
+    <section id="listings">
+        <h2>Our Keyboards</h2>
+
+        <!-- Keyboard 1 -->
+        <div class="product">
+            <img src="kb1.jfif" alt="White Keyboard">
+            <h3>White RGB Keyboard</h3>
+            <p>This elegant white RGB keyboard offers customizable lighting and a smooth typing experience. Perfect for gamers and professionals alike!</p>
+        </div>
+
+        <!-- Keyboard 2 -->
+        <div class="product">
+            <img src="kb2.jfif" alt="Blue Keyboard">
+            <h3>Blue Compact Keyboard</h3>
+            <p>Compact and colorful, this blue keyboard is designed for those who value portability and style. Ideal for on-the-go setups!</p>
+        </div>
+
+        <!-- Keyboard 3 -->
+        <div class="product">
+            <img src="kb3.jfif" alt="Red Keyboard">
+            <h3>Red Performance Keyboard</h3>
+            <p>Featuring a bold red design, this keyboard is made for performance. With durable keys and responsive action, it's perfect for intense gaming sessions.</p>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Email: contact@vandaadskeyboards.com</p>
+        <p>Phone: (555) 123-4567</p>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login">
+        <h2>Login</h2>
+        <form onsubmit="return validateLogin()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <input type="submit" value="Login">
+        </form>
+        <p id="loginMessage"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

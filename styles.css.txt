@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.product img {
+    max-width: 200px;
+    height: auto;
+}
+
+#login {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+#loginMessage {
+    color: red;
+    margin-top: 10px;
+}
